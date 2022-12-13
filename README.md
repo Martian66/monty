@@ -15,25 +15,15 @@ Files containing Monty byte codes usually have the .m extension. Most of the ind
 Monty byte code files can contain blank lines (empty or made of spaces only, and any additional text after the opcode or its required argument is not taken into account:
 ```
 julien@ubuntu:~/monty$ cat -e bytecodes/000.m
-
 push 0$
-
 push 1$
-
 push 2$
-
   push 3$
-
                    pall    $
-
 push 4$
-
     push 5    $
-
       push    6        $
-
 pall$
-
 julien@ubuntu:~/monty$
 ```
 
