@@ -4,7 +4,7 @@ This project covers the implementation of the LIFO and FIFO rules for Stacks and
 The C scripting language, called Monty, is used to carry out these tasks.
 
 
-![This is an image](https://pbs.twimg.com/media/CFYYWy6UEAE9Ow-.png)
+![This is an image](https://cdn.akamai.steamstatic.com/steam/apps/2061280/header.jpg)
 
 ## Monty Interpreter
 Monty 0.98 is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it.
