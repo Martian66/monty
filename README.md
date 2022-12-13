@@ -31,8 +31,8 @@ Files containing Monty byte codes usually have the .m extension. Most of the ind
 ## Compilation & Output
 * All files were compiled on Ubuntu 14.04 LTS
 * The code was compiled using: `gcc -Wall -Werror -Wextra -pedantic *.c -o monty` 
-* Any output must be printed on stdout
-* Any error message must be printed on stderr
+* Any output must be printed on `stdout`
+* Any error message must be printed on `stderr`
 
 
 ## Styling
