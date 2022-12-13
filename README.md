@@ -41,8 +41,7 @@ Files containing Monty byte codes usually have the .m extension. Most of the ind
 
 typedef struct stack_s
 {
-
-        int n;
+       	int n;
         struct stack_s *prev;
         struct stack_s *next;
 
