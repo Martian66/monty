@@ -28,7 +28,7 @@ Files containing Monty byte codes usually have the .m extension. Most of the ind
 * You are expected to do the tasks in the order shown in the project
 
 ## Data structures used
-/**
+`/**
 
  * struct instruction_s - opcode and its function
 
@@ -52,9 +52,9 @@ typedef struct instruction_s
 
         void (*f)(stack_t **stack, unsigned int line_number);
 
-} instruction_t;
+} instruction_t;`
 
-/**
+`/**
 
  * struct instruction_s - opcode and its function
 
@@ -78,7 +78,7 @@ typedef struct instruction_s
 
         void (*f)(stack_t **stack, unsigned int line_number);
 
-} instruction_t;
+} instruction_t;`
 
 
 ## Compilation & Output
