@@ -27,60 +27,6 @@ Files containing Monty byte codes usually have the .m extension. Most of the ind
 * All your header files should be include guarded
 * You are expected to do the tasks in the order shown in the project
 
-## Data structures used
-`/**
-
- * struct instruction_s - opcode and its function
-
- * @opcode: the opcode
-
- * @f: function to handle the opcode
-
- *
-
- * Description: opcode and its function
-
- * for stack, queues, LIFO, FIFO Holberton project
-
- */
-
-typedef struct instruction_s
-
-{
-
-        char *opcode;
-
-        void (*f)(stack_t **stack, unsigned int line_number);
-
-} instruction_t;`
-
-`/**
-
- * struct instruction_s - opcode and its function
-
- * @opcode: the opcode
-
- * @f: function to handle the opcode
-
- *
-
- * Description: opcode and its function
-
- * for stack, queues, LIFO, FIFO
-
- */
-
-typedef struct instruction_s
-
-{
-
-        char *opcode;
-
-        void (*f)(stack_t **stack, unsigned int line_number);
-
-} instruction_t;`
-
-
 ## Compilation & Output
 * All files were compiled on Ubuntu 14.04 LTS
 * The code was compiled using: `gcc -Wall -Werror -Wextra -pedantic *.c -o monty` 
