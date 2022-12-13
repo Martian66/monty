@@ -39,7 +39,13 @@ void read_file(char *filename, stack_t **stack)
 		}
 		s(stack, line_count);
 		line_count++;
+	}
+	free(var_global.buffer);
+	check = fclose(var_global.file);
+	if (check == -1)
+		exit(-1);
 }
+
 
 /**
  * get_op_func -  checks opcode and returns the correct function
