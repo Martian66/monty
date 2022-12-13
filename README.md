@@ -9,7 +9,7 @@ The C scripting language, called Monty, is used to carry out these tasks.
 ## Description: Monty Interpreter
 Monty 0.98 is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it.
 
-# Monty byte code files
+## Monty byte code files
 Files containing Monty byte codes usually have the .m extension. Most of the industry uses this standard but it is not required by the specification of the language. There is not more than one instruction per line. There can be any number of spaces before or after the opcode and its argument.
 
 
@@ -28,14 +28,12 @@ Files containing Monty byte codes usually have the .m extension. Most of the ind
 * You are expected to do the tasks in the order shown in the project
 
 
-
 ## Compilation & Output
 * All files were compiled on Ubuntu 14.04 LTS.
 * The code was compiled using: 
 * Any output must be printed on stdout
 * Any error message must be printed on stderr
 
------
 
 ## Styling
 All files are written in accordance to Betty styling rules
