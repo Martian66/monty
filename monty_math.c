@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
- * _sub - sub top of stack y second top stack
- * @stack: pointer to lists for monty stack
- * @line_number: number of line opcode occurs on
+ *_sub - sub top of stack y second top stack
+ *@stack: pointer to lists for monty stack
+ *@line_number: number of line opcode occurs on
  */
 
 void _sub(stack_t **stack, unsigned int line_number)
@@ -35,9 +35,9 @@ void _sub(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * _mul - mul top of stack y second top stack
- * @stack: pointer to lists for monty stack
- * @line_number: number of line opcode occurs on
+ *_mul - mul top of stack y second top stack
+ *@stack: pointer to lists for monty stack
+ *@line_number: number of line opcode occurs on
  */
 
 void _mul(stack_t **stack, unsigned int line_number)
@@ -61,9 +61,9 @@ void _mul(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * _div - div top of stack y second top stack
- * @stack: pointer to lists for monty stack
- * @line_number: number of line opcode occurs on
+ *_div - div top of stack y second top stack
+ *@stack: pointer to lists for monty stack
+ *@line_number: number of line opcode occurs on
  */
 
 void _div(stack_t **stack, unsigned int line_number)
@@ -95,9 +95,9 @@ void _div(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * _mod - mod top of stack y second top stack
- * @stack: pointer to lists for monty stack
- * @line_number: number of line opcode occurs on
+ *_mod - mod top of stack y second top stack
+ *@stack: pointer to lists for monty stack
+ *@line_number: number of line opcode occurs on
  */
 void _mod(stack_t **stack, unsigned int line_number)
 {

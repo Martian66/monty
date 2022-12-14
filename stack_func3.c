@@ -25,9 +25,9 @@ void _pstr(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * _rotl - mod top of stack y second top stack
- * @stack: pointer to lists for monty stack
- * @line_number: number of line opcode occurs on
+ *_rotl - mod top of stack y second top stack
+ *@stack: pointer to lists for monty stack
+ *@line_number: number of line opcode occurs on
  */
 void _rotl(stack_t **stack, unsigned int line_number)
 {
@@ -51,9 +51,9 @@ void _rotl(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * _rotr - mod top of stack y second top stacks
- * @stack: pointer to lists for monty stack
- * @line_number: number of line opcode occurs on
+ *_rotr - mod top of stack y second top stacks
+ *@stack: pointer to lists for monty stack
+ *@line_number: number of line opcode occurs on
  */
 void _rotr(stack_t **stack, unsigned int line_number)
 {
